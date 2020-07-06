@@ -1,0 +1,30 @@
+div{
+    float: left;
+    width: calc(33.33% - 42px);
+    /*height: 500px;*/
+    /*border: 10px solid red;!*solid dashed dotted*!*/
+    /*border-bottom: 1px solid red;*/
+    /*border-top: 1px solid #ff0000;*/
+    /*boreder-left: 1px solid red;*/
+    padding:30px ;
+    /*margin: 20px;*/
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+div>div{
+    border: 1px solid red;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+body > div{
+    border: 1px solid red;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+div img{
+    display: none;
+}

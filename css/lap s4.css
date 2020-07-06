@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#left{
+    width:280px;
+    float: left;
+    margin-left: 40px;
+    padding: 35px;
+    background-color: #bac2cb;
+}

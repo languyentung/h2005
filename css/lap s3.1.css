@@ -1,0 +1,6 @@
+div{
+    background-image: url("../anh/mau-background-don-gian-02-1024x768.jpg");
+}
+div > p{
+    text-indent: 10px;
+}

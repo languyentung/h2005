@@ -1,0 +1,22 @@
+body{
+    background: url("../anh/49D6F712-37BE-4A8B-81DF-7A1131840F0F.jpg");
+
+}
+h1{
+    Color:darkred;
+    text-shadow: 5px 3px 15px darkgreen;
+    font-size:60px ;
+}
+P{
+    color: rgba(187, 255, 0, 0.85);
+    fort-size:15px;
+    line-height: 1.5;
+    text-align:  justify;/*center lefft right */
+    font-family: sans-serif;
+    font-weight: bold;/*100 200 300 400(normal) 500 600 700(bold) 800 900 */
+    text-decoration: overline; /*underline line-through overline none */
+    text-indent: 20px;
+    word-break:break-word ;
+    text-transform: uppercase ; /* uppercase lowercase captalize none */
+    background-color:gray;
+}
