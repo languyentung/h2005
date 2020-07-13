@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <section class="section">
+        <diz class="container">
+            <form method="post" action="#">
+            <diz class="input-group">
+                <input type="text" class="input-text" name="fullname" placeholder="Full Name.." required/>
+                <input type="email" class="input-text" name="email" placeholder="Enter email.." required/>
+                <input type="password" class="input-text" name="password" placeholder="Password.."required/>
+                <input type="number" class="input-text" name="years" placeholder="Year old.." required/>
+                <input type="date" class="input-text" name="birthday" placeholder="Birthday.." readonly/>
+                <input type="time" class="input-text" name="time_birthday" placeholder="Time.." disabled/>
+            </diz>
+            <diz class="input-groud">
+                <input type="file" class="input-text" name="avatar" placeholder="Avatar.." required/>
+                <input type="color" class="input-text" name="my_color" placeholder="My color.." required/>
+            </diz>
+                <label><input type="radio" name="sex" value="male"/>Nam</label>
+                <label><input type="radio" name="sex" value="female"/>Nu</label>
+                <label><input type="radio" name="sex" value="other"/>Khac</label>
+                <label> Do tuoi muon ket hon</label>
+                <input type="range" min="18" max="99" name="Yearwedding"
+                <label><input type="checkbox" name="rules"/>Toi dong ys voi dieu kien.<label/>
+                <select name="city">
+                    <option>Vui long chon tinh thanh...</option>
+                    <optgroup label="Mien Bac">
+                        <option value="HN">Ha Noi</option>
+                        <option value="HP">Hai Phong</option>
+                    </optgroup>
+                    <optgroup label="Mien Nam">
+                        <option value="HCM">Ho Chi Minh</option>
+                    </optgroup>
+                </select>
+                
+                    <textarea name="description" rows="10" cols="100" placeholder="Gioi thieu ban than"></textarea>
+                
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button">Button</button>
+            </form>
+        </diz>
+    </section>
+
+</body>
+</html>
